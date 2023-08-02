@@ -11,10 +11,22 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+
         body: Column(
           children: [
             Text('hello world'),
-          ],
+          ],),
+
+        appBar: AppBar(
+          title: Text(
+            "Git Course",
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          backgroundColor: Colors.redAccent,
+
         ),
       ),
     );
