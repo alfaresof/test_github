@@ -13,10 +13,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
 
 
-        body: Column(
-          children: [
-            Text('hello world'),
-          ],),
+
+        body: Row(
+          children: [],),
 
         appBar: AppBar(
           title: Text(
