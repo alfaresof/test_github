@@ -11,6 +11,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+
+        body: Column(
+          children: [
+            Text('hello world'),
+          ],),
+
         appBar: AppBar(
           title: Text(
             "Git Course",
@@ -20,6 +26,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           backgroundColor: Colors.redAccent,
+
         ),
       ),
     );
