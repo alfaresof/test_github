@@ -1,1 +1,3 @@
-class a {}
+class a {
+  int b = 0;
+}
