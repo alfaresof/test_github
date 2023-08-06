@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+
         body: Row(
           children: [],
         ),
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
             ),
           ),
           backgroundColor: Colors.redAccent,
+
         ),
       ),
     );
