@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -10,7 +10,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(),
+      home: Scaffold(
+        body: Center(
+          child: Container(
+            width: 200,
+            height: 200,
+            color: Colors.amber,
+            alignment: Alignment.center,
+            child: const Text('this changed by nujood'),
+          ),
+        ),
+      ),
     );
   }
 }
