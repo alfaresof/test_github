@@ -11,21 +11,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Container(
-            width: 200,
-            height: 200,
-            color: Colors.amber,
-            alignment: Alignment.center,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              mainAxisAlignment: MainAxisAlignment.start,
-              children: [
-                const Text('this changed by nujood'),
-                ElevatedButton(onPressed: () {}, child: const Text('did it:)')),
-              ],
+
+        body: Row(
+          children: [],
+        ),
+        appBar: AppBar(
+          title: Text(
+            "Git Course after editing from Raven",
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
             ),
           ),
+          backgroundColor: Colors.redAccent,
+
         ),
       ),
     );
