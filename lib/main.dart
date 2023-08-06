@@ -17,7 +17,14 @@ class MyApp extends StatelessWidget {
             height: 200,
             color: Colors.amber,
             alignment: Alignment.center,
-            child: const Text('this changed by nujood'),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                const Text('this changed by nujood'),
+                ElevatedButton(onPressed: () {}, child: const Text('did it:)')),
+              ],
+            ),
           ),
         ),
       ),
