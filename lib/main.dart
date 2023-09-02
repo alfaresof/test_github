@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
           children: [],
         ),
         appBar: AppBar(
+          centerTitle: true,
           title: Text(
             "Git Course after editing from Obida Farhat and Muhannad and huda",
-
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
