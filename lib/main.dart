@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         ),
         appBar: AppBar(
           title: Text(
-            "Git Course after editing from Raven",
+            "Git Course after editing from Muhannad",
             style: TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
