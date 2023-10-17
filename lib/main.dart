@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         ),
         appBar: AppBar(
           title: Text(
-            "my name is obida",
+            "my name is obida ",
 
             style: TextStyle(
               fontSize: 20,
